@@ -1,3 +1,9 @@
+# persecus_dockerimg branch
+
+In this branch we propose a new `Dockerfile` for the Quorum blockchain. Such `Dockerfile` generates a new Quorum docker image featured with two linux packages suche as:
+* `iputils` who provides the container with netwroks capabilities like the `ping`
+* `iproute2` who inclueds the traffic control `tc` command that can be used for network simulations.
+
 # <img src="https://raw.githubusercontent.com/jpmorganchase/quorum/master/logo.png" width="200" height="200"/>
 
 <a href="https://www.goquorum.com/slack-inviter" target="_blank" rel="noopener"><img title="Quorum Slack" src="https://93ecjxb0d3.execute-api.us-east-1.amazonaws.com/Express/badge.svg" alt="Quorum Slack" /></a>
